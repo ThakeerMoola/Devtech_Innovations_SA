@@ -21,3 +21,24 @@ body {
 .custom-navbar .nav-link:hover {
     color: #cccccc; /* Optional: Change text color on hover */
 }
+
+.custom-footer {
+    background-color: #000000; /* Black background */
+    color: #ffffff; /* White text color */
+    border-top: 2px solid #ffffff; /* White line at the top */
+    position: fixed; /* Fixes the footer at the bottom */
+    left: 0;
+    right: 0;
+    bottom: 0; /* Positions it at the bottom */
+    z-index: 1000; /* Ensure it stays above other content */
+}
+
+.custom-footer .nav-link {
+    color: #ffffff; /* White icons */
+    transition: color 0.3s; /* Smooth transition for hover */
+}
+
+.custom-footer .nav-link:hover {
+    color: #cccccc; /* Change icon color on hover */
+}
+
