@@ -10,6 +10,7 @@ body {
 .custom-link {
     font-size: 18px; /* Increase the font size */
     font-family: 'Roboto', sans-serif;
+    justify-content: center;
 }
 .custom-navbar {
     background-color: #000000; /* Black background */
