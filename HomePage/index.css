@@ -1,4 +1,23 @@
-body {
-    background-color: black;
-    margin: 0;
+body { 
+    background-color: #000000 !important;
+    color: #ffffff; 
+    margin: 0; 
+    padding: 0;
+}
+.custom-nav {
+    margin-left: auto;
+}
+.custom-link {
+    font-size: 18px; /* Increase the font size */
+    font-family: 'Roboto', sans-serif;
+}
+.custom-navbar {
+    background-color: #000000; /* Black background */
+    border-bottom: 2px solid #ffffff; /* White line at the bottom */
+}
+.custom-navbar .nav-link {
+    color: #ffffff; /* White text color */
+}
+.custom-navbar .nav-link:hover {
+    color: #cccccc; /* Optional: Change text color on hover */
 }
